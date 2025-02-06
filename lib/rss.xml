@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 06 Feb 2025 14:31:00 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 06 Feb 2025 14:30:59 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+ <br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
+<br>Modéliser des problèmes physiques
+<br>Traduire le problème en équation
+<br>L'ordinateur les résout
+<br>Equations difficiles -&gt;  Il y aura plusieurs façons de faire !<br><br><br><br><img alt="Capture d’écran 2025-02-03 à 14.20.25.png" src="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png"><br><br>Equation d'équilibre de la structure :<br>
+avec <br>
+<br> le déplacement transversal au point 
+<br> le module d'Young (plus  est grand, plus le matériau est rigide)
+<br> la force exercée
+<br> le moment d'inertie qui peut dépendre de  ( caractérise la résistance à la flexion autour du point )
+<br><br>On reviendra sur cet exemple au CM 5, avec la méthode des différences finies. <br>Simplifions : le moment d'inertie  est constant le long de la poutre, on obtient<br>
+avec   <br><img alt="Capture d’écran 2025-02-03 à 14.20.49.png" src="lib/media/capture-d’écran-2025-02-03-à-14.20.49.png"><br><br>Phénomène de Flambage:<br>
+<br>Un mur porteur dans un bâtiment
+<br>une plaque géologique soumise à des pressions crée des montagnes
+<br>Une roue de vélo
+<br>Des rails de train qui se dilatent sous l'effet de la chaleur
+<br><br><br>5 CM : <br>
+<br>Introduction
+<br>Approximation polynomiale
+<br>Intégration numérique
+<br>Analyse numérique matricielle 
+<br>Résolution d'équations différentielles
+<br><br>Des TD et des TP en Python ! <br><br>C'est un domaine difficile ! On fait des erreurs :  <br>
+<br>dans le modèle, 
+<br>(dans les calculs pour obtenir les équations)
+<br>quand on travaille sur l'ordinateur ! 
+<br>dans les méthodes qui donnent une solution
+<br><br>math.sqrt(2)**2 
+   &gt; 2.0000000000000004
+<br>Comment est représenté un nombre à virgules  ?<br>
+<br>Type float : sur 32 bits, des nombres entre  et  avec  chiffres significatifs après la virgule. 
+<br>Type double : sur 64 bits, des nombres entre  et  avec  chiffres significatifs après la virgule. 
+<br><br><br>Si  est une valeur approchée de , l'erreur absolue est<br>
+<br>
+Quelle est l'erreur absolue quand on approche  par  ?<br>
+
+<br><img alt="Capture d’écran 2025-02-02 à 17.40.33.png" src="lib/media/capture-d’écran-2025-02-02-à-17.40.33.png"><br><br><br><br>Se calcule par le rapport de l'erreur absolue sur la valeur exacte :<br>
+Si on ne connait pas , on peut l'estimer en calculant plutôt:<br>
+<br><br>Quand on écrit le résultat d'un calcul, il faut faire attention aux chiffres significatifs employés.<br>Le nombre 100 par exemple, peut représenter les valeurs arrondies des nombres <br>
+<br>
+<br>
+<br><br>
+...<br>
+Tous les nombres entre  et  exclus seront arrondis par <br>
+<img alt="Capture d’écran 2025-02-03 à 13.43.04.png" src="lib/media/capture-d’écran-2025-02-03-à-13.43.04.png">
+<br><img alt="Capture d’écran 2025-02-03 à 13.44.56.png" src="lib/media/capture-d’écran-2025-02-03-à-13.44.56.png" style="width: 500px; max-width: 100%;"><br><img alt="Capture d’écran 2025-02-03 à 14.22.47.png" src="lib/media/capture-d’écran-2025-02-03-à-14.22.47.png"><br><br>Quand on fait une somme:<br>
+<br>Quand on fait un produit<br>
+<br>Quand on applique une fonction<br>
+<br><br><br><br>Pour résoudre des équations de type <br>On peut partir d'une valeur  et appliquer la suite récurrente<br>
+<br>Théorème :<br>
+Pour une fonction  telle que , (on dit que  est contractante)<br>
+Alors  admet un unique point fixe, et toute suite récurrente  converge vers ce point fixe.<br>On peut appliquer le théorème:<br>import numpy as np
+import matplotlib.pyplot as plt
+
+x0 = 0.5  
+iterations = 50
+
+def iterative_process(x0, iterations):
+    x_exact = np.zeros(iterations)
+    
+    x_exact[0] = x0
+    
+    for i in range(1, iterations):
+        x_exact[i] = np.cos(x_exact[i-1])
+    
+    return x_exact
+
+x = iterative_process(x0, iterations)
+
+plt.plot(x)
+<br>C'est une méthode itérative, l'étape  se sert des résultats de l'étape . <br>Cela peut poser des problèmes si des erreurs se cumulent ! <br>def iterative_process(x0, iterations):
+    x_exact = np.zeros(iterations)
+    x_approx = np.zeros(iterations)
+    
+    x_exact[0] = x0
+    x_approx[0] = x0 + 1e-10 
+    
+    for i in range(1, iterations):
+        x_exact[i] = 30*np.cos(x_exact[i-1])
+        x_approx[i] = 30*np.cos(x_approx[i-1])
+    
+    return x_exact, x_approx
+
+x0 = 0.2  
+iterations = 50 
+
+x_exact, x_approx = iterative_process(x0, iterations)
+
+differences = np.abs(x_exact - x_approx)
+
+plt.semilogy(differences, label="Erreur d'approximation")
+<br><br>Si on connait un intervalle  dans lequel l'équation admet une unique solution. <br>Pour trouver une solution à l'équation . On sait qu'une seule solution se situe dans l'intervalle :<br>
+<br>On calcule le milieu de l'intervalle : 
+<br>On regarde l'équation au point , la solution se situe-t-elle avant ou après  ?<br>
+- Si la solution est avant , on recommence avec le nouvel intervalle <br>
+- Si la solution est après , on recommence avec le nouvel intervalle <br>
+On continue jusqu'à atteindre la précision souhaitée
+<br><img alt="Capture d’écran 2025-02-03 à 14.21.23.png" src="lib/media/capture-d’écran-2025-02-03-à-14.21.23.png"><br>import math
+
+def dichotomie(a, b, epsilon=1e-6):
+
+	while (b - a) / 2 &gt; epsilon:
+		c = (a + b) / 2
+        
+		if c &gt; math.cos(c):
+			b = c
+		else:
+			a = c
+    
+	return (a + b) / 2 
+
+print(dichotomie(0.1, 1))
+<br><br>On fait comme si la fonction  est une droite:<br>
+<br>On choisit un point , pas trop loin de la solution, 
+<br>On calcule la dérivée en ce point 
+<br>On pose 
+<br>Si l'équation est une droite passant en , et de pente ,  est la solution de l'équation . 
+<br>On recommence avec . 
+<br>import math
+x0 = 0.5
+
+def f(x):
+    return x - math.cos(x)
+
+def df(x):
+    return 1 + math.sin(x)
+
+def newton(x0, epsilon=1e-6):
+    x = x0
+    iter_count = 0
+    
+    while abs(f(x)) &gt; epsilon:
+        x = x - f(x) / df(x) 
+        
+    return x
+
+print(newton(x0))
+<br><img alt="Capture d’écran 2025-02-03 à 14.21.49.png" src="lib/media/capture-d’écran-2025-02-03-à-14.21.49.png"><br><br>Comment l'ordinateur calcule la valeur de  ? ]]></description><link>enseignement/4-analyse-numérique/cm-1-introduction.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM 1 - Introduction.md</guid><pubDate>Thu, 06 Feb 2025 14:30:27 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
