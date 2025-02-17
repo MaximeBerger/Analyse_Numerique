@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 06 Feb 2025 14:31:00 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 06 Feb 2025 14:30:59 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
- <br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Feb 2025 11:10:22 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Feb 2025 11:10:21 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+ <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
 <br>L'ordinateur les résout
@@ -136,4 +136,116 @@ def newton(x0, epsilon=1e-6):
     return x
 
 print(newton(x0))
-<br><img alt="Capture d’écran 2025-02-03 à 14.21.49.png" src="lib/media/capture-d’écran-2025-02-03-à-14.21.49.png"><br><br>Comment l'ordinateur calcule la valeur de  ? ]]></description><link>enseignement/4-analyse-numérique/cm-1-introduction.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM 1 - Introduction.md</guid><pubDate>Thu, 06 Feb 2025 14:30:27 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+<br><img alt="Capture d’écran 2025-02-03 à 14.21.49.png" src="lib/media/capture-d’écran-2025-02-03-à-14.21.49.png"><br><br>Comment l'ordinateur calcule la valeur de  ? ]]></description><link>enseignement/4-analyse-numérique/cm-1-introduction.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM 1 - Introduction.md</guid><pubDate>Thu, 06 Feb 2025 15:08:38 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Les seules fonctions calculables]]></title><description><![CDATA[ 
+ <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm2-approximation-polynomiale.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm2-approximation-polynomiale.html" target="_blank">ce lien</a><br><br>Un ordinateur/calculatrice peut seulement effectuer les 4 opérations<br>
+<br>Quelles fonctions peut-on calculer ?<br>
+<img alt="Capture d’écran 2025-02-17 à 11.09.30.png" src="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png"><br>Question : Comment calculer<br>
+<br>Des racines carrées ? 
+<br>Des exponentielles   ?
+<br>Des cosinus  ? 
+<br>Des intégrales ? (-&gt; CM 3)
+<br>Des solutions d'équations différentielles  ? (-&gt; CM 5)
+<br><br>Comment calculer   à la main ? <br>
+<br>Par interpolation : 
+<br><br>Il faut en fait chercher le zéro de la fonction<br>
+<img alt="Capture d’écran 2025-02-17 à 11.09.49.png" src="lib/media/capture-d’écran-2025-02-17-à-11.09.49.png"><br>
+<br>
+Par dichotomie
+
+<br>On sait que c'est entre 4 et 5
+<br>On essaye 4.5  la racine se trouve entre 4.5 et 5
+<br>On essaye 4.75 ... 
+
+
+<br>
+Par méthode de Newton<br>
+Fonctionne encore mieux avec<br>
+La fonction ressemble plus à une fonction affine. 
+
+<br>
+Par méthode de point fixe !<br>
+
+
+<br>
+<br>On part d'un point,  par exemple
+<br>on calcule 23/4, puis 23/(23/4) puis (23/(23/(23/4))) ... 
+<br><br>Il y a plusieurs façons de multiplier de grands nombres avec  chiffres ! Il y a plusieurs façons de multiplier de grands nombres avec  chiffres !<br>
+(wooclap)<br><br>Ce n'est pas la seule (ni la meilleure) façon de faire !<br>Quelques idées : <br>
+<br>Karatsuba On divise les nombres en deux parties
+
+On a donc :
+<br><br>Ce qui donne après développement :<br><br>On se ramène à des multiplications plus petites. <br>
+<br>
+Tom-Cook On divise en plus que 2 parties.<br>
+Chaque nombre est vu comme la valeur d'un polynôme en un point avec des coefficients simples. 
+
+
+On évalue ces polynômes en différents points pour retrouver le polynôme produit. 
+
+<br>
+Schönhage-Strassen, Harvey-Van der Hoeven utilisent la transformée de Fourier en arithmétique modulaire.<br>
+Travaillent modulo <br>
+Transformée de Fourier transforme le produit en convolution
+
+<br><br><img alt="Capture d’écran 2025-02-17 à 11.12.41.png" src="lib/media/capture-d’écran-2025-02-17-à-11.12.41.png"><br>
+Les mathématiques montrent que la limite théorique est <br><br>Exponentielle ne peut pas s'écrire comme racine d'un polynôme.<br>But :   est compliquée, longue à calculer. On la remplace par une approximation  plus simple. <br>
+<br>Dans quelle catégorie de fonction allons-nous choisir  ? 
+<br><img alt="Capture d’écran 2025-02-17 à 11.12.53.png" src="lib/media/capture-d’écran-2025-02-17-à-11.12.53.png"><br>
+<br>Quels critères diront si  est une bonne approximation ou non ?<br>
+<img alt="Capture d’écran 2025-02-17 à 11.13.12.png" src="lib/media/capture-d’écran-2025-02-17-à-11.13.12.png">
+<br>Normes<br>
+<br>Sur quel intervalle  est-elle une bonne approximation ? 
+<br><br>Ces algorithmes sont tous implémentés dans les ordinateurs d'aujourd'hui, pourquoi les apprendre ? <br>
+<br>Vous êtes dans un contexte d'apprentissage.  C'est un problème jouet. 
+<br>Découvrir le "bon" algorithme est une compétence qui vous servira dans d'autres contextes. 
+<br>Comprendre pourquoi certains algorithmes sont meilleurs que d'autres. 
+<br><br><br>Combien d'opérations cela prend de calculer la valeur de  ? <br><img alt="Capture d’écran 2025-02-17 à 11.13.25.png" src="lib/media/capture-d’écran-2025-02-17-à-11.13.25.png"><br>Un algorithme plus économe : Algorithme de Horner<br>
+On écrit plutôt : <br><br><img alt="Capture d’écran 2025-02-17 à 11.13.45.png" src="lib/media/capture-d’écran-2025-02-17-à-11.13.45.png"><br>Une analogie pour calculer  avec degré  <br><img alt="Capture d’écran 2025-02-17 à 11.14.23.png" src="lib/media/capture-d’écran-2025-02-17-à-11.14.23.png"><br><br>Théorème de Weierstrass : <br>Pour toute fonction continue ,<br>
+Pour toute précision  fixée,<br>
+Il existe un polynôme  tel que<br>
+<br>Problème : on n'a aucun moyen de calculer ce polynôme ! <br><br>Pour approcher une fonction autour d'un point par un polynôme :<br>
+Théorème de Taylor :<br>
+<br><br>
+<br>
+Combien de termes faut-il prendre ?  -&gt; Erreur de Troncation
+
+<br>
+En quel point prendre ce DL ? 
+
+<br>Exemple : La fonction  sur l'intervalle  approchée par son DL en 0.<br>
+<br><img alt="Valeurs des termes $u_k$ de la série de $e^{-10}$ pour $k=0$ à $25$.png" src="lib/media/valeurs-des-termes-$u_k$-de-la-série-de-$e^{-10}$-pour-$k=0$-à-$25$.png"><br>A la main, , <br>
+<br>Pour avoir une précision relative de  il faut que le premier terme qu'on ne prenne pas soit d'ordre , il faut sommer au moins les  premiers termes.<br>
+et il faut calculer tous ces termes avec une précision de <br>
+ 12 chiffres significatifs pour  <br><img alt="Capture d’écran 2025-02-17 à 11.14.39.png" src="lib/media/capture-d’écran-2025-02-17-à-11.14.39.png"><br>
+D'ailleurs, comment calculer   ?<br>
+V<br>On calcule progressivement les termes en utilisant<br>
+<img alt="Capture d’écran 2025-02-17 à 11.14.49.png" src="lib/media/capture-d’écran-2025-02-17-à-11.14.49.png"><br>
+<br>
+C'est une méthode possible pour calculer les valeurs proches de 0 
+
+<br>
+Si loin de zéro, on peut utiliser une propriété de l'exponentielle :<br>
+- Décomposer un nombre  en<br>
+ avec  un nombre entier. On peut alors écrire :<br>
+
+
+<br><br>Pour calculer les valeurs de la fonction exponentielle, on cherche la meilleure fraction rationnelle. <br>Approximant de Padé<br>Pour la fonction exponentielle, on utilise souvent :<br>
+Voir en TD. <br><br>Remplacer  par une fonction simple  qui coïncide avec les valeurs de  en certains points. <br>interpolation : On part de certaines valeurs de  et on "interpole" : on essaye de relier ces points entre eux. <br>Vous l'avez souvent fait en TP chimie<br>
+<br>Mesurer la température d'une poutre en différents endroits
+<br>La concentration d'une certaine molécule en différents endroits. 
+<br>La conductivité d'une solution en différents instants de temps
+<br><img alt="Capture d’écran 2025-02-17 à 11.15.11.png" src="lib/media/capture-d’écran-2025-02-17-à-11.15.11.png"><br><br><br>Relier les points par des segments de droite, calcul très rapide !<br>
+C'est ce qui est fait dans les processeurs actuels, stockent 1024 valeurs de la fonction exponentielle entre  puis interpolent de façon linéaire<br><img alt="Capture d’écran 2025-02-17 à 11.15.26.png" src="lib/media/capture-d’écran-2025-02-17-à-11.15.26.png"><br><br>Pour calculer la valeur en , on prend les  points les plus proches dans la table, et on trouve la meilleure parabole qui passe par ces  points. <br>Mais comment calculer cette parabole ? <br><img alt="Capture d’écran 2025-02-17 à 11.15.36.png" src="lib/media/capture-d’écran-2025-02-17-à-11.15.36.png"><br><br>Dans toute cette section on cherche les coefficients d'un polynôme <br>
+Le problème est de régler  et  pour que   passe par certains points fixés<br>
+<br><br>Quel degré pour  ? <br><img alt="Capture d’écran 2025-02-17 à 11.15.45.png" src="lib/media/capture-d’écran-2025-02-17-à-11.15.45.png"><br><br>Quel degré pour  ? <br>Degré 1 suffit <br><img alt="Capture d’écran 2025-02-17 à 11.16.06.png" src="lib/media/capture-d’écran-2025-02-17-à-11.16.06.png"><br><br>Quel degré pour   ? <br>Degré 2 suffit <br><br>Quel degré pour  ?  <br><br>A la force brute :<br>
+<img alt="Capture d’écran 2025-02-17 à 11.16.30.png" src="lib/media/capture-d’écran-2025-02-17-à-11.16.30.png"><br>
+C'est compliqué. <br>Une autre idée : On va trouver des polynômes  tels que <br>
+<br> vaut 1 en 
+<br> vaut 0 en 
+<br> vaut  en 
+<br>...
+<br><img alt="Capture d’écran 2025-02-17 à 11.16.57.png" src="lib/media/capture-d’écran-2025-02-17-à-11.16.57.png"><br>  est de degré <br>
+   est multiple de <br>
+ donc <br>
+ Que vaut  ?<br><img alt="Capture d’écran 2025-02-17 à 11.17.05.png" src="lib/media/capture-d’écran-2025-02-17-à-11.17.05.png"><br>
+Ainsi <br>]]></description><link>enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md</guid><pubDate>Mon, 17 Feb 2025 10:39:36 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-17-à-11.09.30.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
