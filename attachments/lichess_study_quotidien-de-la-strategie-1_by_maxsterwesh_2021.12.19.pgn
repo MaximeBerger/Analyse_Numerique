@@ -1,0 +1,626 @@
+[Event "Le quotidien de la stratégie: Chapitre : 1"]
+[Site "https://lichess.org/study/6ztn8KRu/PbbFsU0z"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapitre : 1"]
+[FEN "8/1p5p/p3k1p1/P1P2p2/4bP2/2P3PB/3K3P/8 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ Les patterns stratégiques sont aussi importants que la tactique.
+Une à trois positions par jour suffit ici, pas plus. l'objectif est d'abord de comprendre pour savoir reproduire.
+Quelle idée ici pour les Blancs? }
+1. c4 { Bravo! Interdit l'activité du Roi noir et permet la centralisation du Roi blanc } { [%csl Rd5][%cal Rc4d5,Bd2c3,Bc3d4] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 2"]
+[Site "https://lichess.org/study/6ztn8KRu/7LJBanmD"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 2"]
+[FEN "r1bqkb1r/pp3ppp/2pp4/8/2nPB2N/6P1/PP2PP1P/R1BQK2R w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+1. d5 { Bravo! Les Blancs empêchent le coup d5 qui aurait permis aux Noirs d'activer leur Fou en f8 et d'équilibrer la situation centrale } { [%csl Rf8,Rd6] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 3"]
+[Site "https://lichess.org/study/6ztn8KRu/sbRwzkfv"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 3"]
+[FEN "2k5/2r1bp2/pq1np1pp/1p1p4/3P1N2/PP2P3/4QPPP/1B3RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+1. Nd3 { Oui, replaçant le Cavalier pour atteindre les cases fortes e5 ou c5.
+Une façon d'améliorer une position est de considérer chaque pièce en se posant la question suivante: est-il possible d'améliorer son activité? } { [%csl Bc5,Be5] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 4"]
+[Site "https://lichess.org/study/6ztn8KRu/exj931kb"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 4"]
+[FEN "r1bq1rk1/1p2bppp/p1n1pn2/8/P1BP4/2N2N2/1P2QPPP/R1BR2K1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+1... Nb4 { Très bien,manœuvre typique pour contrôler d5 et prévenir ainsi l'avance du pion isolé d4 qui est la poussée thématique des Blancs dans ce genre de position. } { [%csl Bd5,Rd4] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 5"]
+[Site "https://lichess.org/study/6ztn8KRu/o0TT1aUw"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 5"]
+[FEN "r4rk1/4bppp/1q1p4/1p1QpP2/4P3/1N6/1PP3PP/R4R1K b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+1... Ra4 { Savoir utiliser un avant-poste est une technique très importante dans la lutte pour le contrôle d’une colonne ouverte. Les Blancs ne peuvent pas prendre la Tour sinon ils vont perdre le pion b2, et les Noirs vont donc pouvoir jouer Da6 prenant l’initiative sur la colonne « a ».
+Nous marchons ici sur les pas du grand Bobby Fischer qui va encore nous guider pendant quelques jours! } { [%cal Bb6a6] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 6"]
+[Site "https://lichess.org/study/6ztn8KRu/u0zhUgVK"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 6"]
+[FEN "2r3k1/4bpp1/q2p3p/1p1QpP2/r3P3/1NP4P/1P4PK/R3R3 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ C'est la suite de la partie Unzicker-Fischer d'hier.
+Que joua Fischer ici? }
+1... Bg5 { Bravo!
+La colonne "a" n'est pas le seul élément dans cette position. Les Blancs ont plus d'espace, mais pas de pièces pour le contrôler correctement. Spécialement les cases noires sont très vulnérables, comme Fischer va le montrer bientôt. } { [%cal Bg5f4] } 2. g3 { avec l'idée de chasser le Fou par h4 } { [%cal Rh3h4] } 2... Qa7 { Excellent! Les Blancs arrivent trop tard sur les cases noires. } { [%csl Bf2][%cal Ba7f2] } 3. Kg2 Ra2 { Les Tours menacent d'entrer dans le camp blanc } { [%cal Ba2b2] } 4. Kf1 { Trouverez-vous la combinaison finale de Fischer? } 4... Rxc3 { Oui!
+Les Blancs sont perdus.
+Une démonstration qu'un avantage d'espace n'est pas bon si le camp qui le possède n'est pas capable de contrôler les cases critiques (cases d'entrée).
+La façon dont Fischer a manœuvré ses pièces dans le territoire ennemi est aussi très instructive. } { [%csl Rf2][%cal Ra2f2,Ra7f2,Rb2c3,Bc3f3] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 7"]
+[Site "https://lichess.org/study/6ztn8KRu/ZIzmMpgY"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 7"]
+[FEN "2r3k1/3b3p/pB1p1npb/1p1Pp3/8/1P3P2/P3NKPP/1B1R4 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ Qu'a joué ici le plus grand joueur de tous les temps? }
+1... Bf5 { Excellent!
+La Tc8 avait besoin de la case c2 pour entrer dans la position blanche. Fischer trouve le moyen d'échanger le gardien de cette case! } { [%csl Rc2] } 2. Bxf5 gxf5 3. Ng3 Rc2+ { mission accomplie!
+Fischer va bientôt gagner le pion a2. Par l'échange des Fous de cases blanches, il a augmenté son activité et réduit celle de l'adversaire: le nerf de la guerre aux Echecs! } { [%csl Ra2][%cal Bf5f4,Bh6f8] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 8"]
+[Site "https://lichess.org/study/6ztn8KRu/iamhPo0L"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 8"]
+[FEN "2rq2k1/4bppp/p1rp4/1p1NpP2/4P3/2PQ4/PP4PP/3R1R1K w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ En procédant aux bons échanges, Fischer a rendu la position noire passive.
+Comment continua t-il? }
+1. Ra1 { Un grand bravo!
+Pour mesurer un peu le génie de Fischer, Stockfish ne propose pas ce coup avant 1 minute, et encore, d'abord en 6ème position. Mais dès qu'il l'a envisagé, il se trouve très vite propulsé en 1ère position!
+L'idée simple est de créer une seconde faiblesse à l'aile dame. } { [%cal Ba2a4] } (1. f6 { Est sans doute bon pour attaquer à l'aile roi et affaiblir le roque, mais c'est compliqué, alors que la solution de Fischer est limpide. }) 1... f6 2. a4 { [%csl Ra6][%cal Rb5a4,Ra1a4] } 2... Rb8 { Une grave erreur, mais de toute façon la position noire était déjà très difficile à jouer. } 3. Nxe7+ Qxe7 4. Qd5+ { [%cal Gd5g8,Gd5c6] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 9"]
+[Site "https://lichess.org/study/6ztn8KRu/3l9dJLt0"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 9"]
+[FEN "2r2qk1/r2n2p1/p3p2p/2pp4/8/Q3P3/PP2BPPP/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ Comment Fischer a t-il traité le centre de pions des noirs, apparemment imposant? }
+1. e4 { Avec la volonté de casser le centre et d'augmenter l'activité du Fou blanc. } 1... d4 2. f4 { La bonne façon de procéder: Fischer ne permet pas e5 qui renforcerait le centre noir } 2... Qe7 3. e5 { Mission accomplie. Le centre noir est brisé et le Fou a de belles diagonales.
+Nous verrons demain la suite de cette partie contre le grand Boris Spassky. } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 10"]
+[Site "https://lichess.org/study/6ztn8KRu/3dwr1vib"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 10"]
+[FEN "1r4k1/r2nq1p1/p3p2p/2p1P3/3p1P2/Q7/PP2B1PP/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:04"]
+
+{ Fischer est parvenu à affaiblir le centre noir et à augmenter l'activité de son Fou.
+Comment continua t-il ici? } { [%cal Gc8b8] }
+1. Bc4 { Parfait!
+Le talon d'Achille de la position est e6 et Fischer commence immédiatement la pression sur ce point. } { [%csl Re6] } 1... Kh8 2. Qh3 { Exact!
+La prise du pion e6 signifierait la création d'un pion passé protégé très fort en e5.
+Par comparaison, le pion passé des Noirs en d4 est complètement paralysé. } { [%csl Be6][%cal Bh3e6,Bc4e6] } 2... Nf8 3. b3 { Un coup tranquille qui stabilise la position avant d'engager d'autres mesures concrètes.
+Nous verrons demain la suite et la fin de cette partie d'anthologie. } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 11"]
+[Site "https://lichess.org/study/6ztn8KRu/2pqY7oI3"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 11"]
+[FEN "1r3n1k/r3q1p1/4p2p/p1p1P3/2Bp1P2/1P5Q/P5PP/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ La position des Noirs est très passive.
+Comment Fischer trouve t-il le moyen de progresser? } { [%cal Ga6a5] }
+1. f5 { Excellent!
+Fischer troque un avantage pour un autre. Maintenant ce sont les cases blanches faibles qui vont permettre d'entrer dans la position des Noirs.
+Je donne la suite de la partie avec les flèches vertes, car elle est très instructive. } 1... exf5 { [%cal Gf1f5] } 2. Rxf5 Nh7 { [%cal Gc1f1] } 3. Rcf1 Qd8 { [%cal Gh3g3] } 4. Qg3 Re7 { Les Blancs contrôlent pratiquement tout l'échiquier.
+Il est très intéressant de voir comment Fischer va améliorer patiemment sa position sans donner la moindre chance de contre jeu à son adversaire.
+C'est aussi un des secrets du jeu. } { [%cal Gh2h4] } 5. h4 Rbb7 { [%cal Ge5e6] } 6. e6 Rbc7 { [%cal Gg3e5] } 7. Qe5 Qe8 { [%cal Ga2a4] } 8. a4 Qd8 { [%cal Gf1f2] } 9. R1f2 Qe8 { [%cal Gf2f3] } 10. R2f3 Qd8 { [%cal Gc4d3] } 11. Bd3 Qe8 { [%cal Ge5e4] } 12. Qe4 Nf6 { [%cal Gf5f6] } 13. Rxf6 gxf6 { [%cal Gf3f6] } 14. Rxf6 Kg8 { [%cal Gd3c4] } 15. Bc4 Kh8 { [%cal Ge4f4] } 16. Qf4 { Spassky abandonne, les menaces sur son Roi sont trop fortes.
+Après cet intermède fischérien, demain nous reviendrons sur Terre avec des mécanismes toujours aussi pratiques, mais un peu plus simples! } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 12"]
+[Site "https://lichess.org/study/6ztn8KRu/4SQaU5PT"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 12"]
+[FEN "1q2k2r/1b1nbppp/4p3/1Nn1P3/1p1N1B2/1B6/1P2QPPP/5RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Position tirée d'une partie de 1966 entre les grands maîtres Uhlmann (Blancs) et Gheorghiu (Noirs).
+Qu'a joué Uhlmann ici? }
+1. Bc2 { Empêchant les Noirs d'échanger du matériel avant d'entreprendre une attaque à l'aile Roi après le roque des Noirs.
+Quand on a des perspectives d'attaque, il est important de savoir garder ses (bonnes) pièces.
+Le lien vers cette partie:
+https://share.chessbase.com/SharedGames/share/?p=hXkW/y45J4TsV5PHyAAUiTs3ZQVAwhE0r8aZhQMnXs3N/1KlzGuVtxf0NbTUGpKY } (1. Nd6+ { est intéressant aussi, mais compliqué }) (1. Bc4 { Avec la même idée de conserver le Fou est bon aussi, mais la diagonale b1-h7 est plus naturelle }) *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 13"]
+[Site "https://lichess.org/study/6ztn8KRu/5a7DydKb"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 13"]
+[FEN "r1bq1rk1/ppppnppp/5b2/3P4/2B1R3/5N2/PP3PPP/R1BQ2K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Les Blancs semblent actifs.
+Mais comment poursuivre? }
+1. d6 { Oui!
+Pour l'activité du Fou c4 et contre le développement du Fc8.
+Dans la position de départ, si le trait avait été aux Noirs, ils auraient justement joué 1...d6 pour terminer leur développement. } { [%csl Bc4,Rc8][%cal Bc4f7] } (1. Bg5 { est bon aussi, mais il y a mieux }) *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 14"]
+[Site "https://lichess.org/study/6ztn8KRu/JTYmuuDv"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 14"]
+[FEN "r1bq1rk1/pp3pbp/2p2np1/3P4/2BP4/4BN2/PP2QPPP/R4RK1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Comment poursuivre ici pour les Noirs? }
+1... Nxd5 { Maintient une bonne structure de pion et contrôler une case importante pour le Cavalier. 1 ... cxd5 isolerait ce pion et le Cavalier noir ne pourrait pas occuper cette case. } { [%csl Rd4] } (1... cxd5 { ne permet pas d'exploiter le pion isolé blanc, et de plus s'inflige aussi un pion isolé } { [%csl Rd5] }) 2. Bxd5 { C'est une erreur des Blancs, qui lâchent, mais comment reprenez-vous? } 2... Qxd5 { Exact!
+Le pion isolé d4 va être une cible d'attaque.
+Une bonne stratégie pour affaiblir le pion isolé est souvent de le bloquer d'échanger les pièces légères. } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 15"]
+[Site "https://lichess.org/study/6ztn8KRu/hNfiuuyb"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 15"]
+[FEN "r2r2k1/p3qppp/1p3n2/8/P2P4/4PN2/4QPPP/RR4K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Les Blancs ont un pion de plus, un beau centre, un pion passé protégé, en plus d'une pression à l'aile dame.
+Comment peuvent-ils augmenter leur avantage? }
+1. a5 { Oui!
+Création d'un pion isolé noir, future cible d'attaque.
+Que les Noirs prennent le pion ou qu'ils se laissent prendre, le résultat sera le même. } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 16"]
+[Site "https://lichess.org/study/6ztn8KRu/Pi2oEEY6"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 16"]
+[FEN "5rk1/p1q1pp1p/1p4p1/2n1b3/P1R5/2P2B1P/2P3P1/3RQ2K b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Malgré la qualité de moins, les Noirs peuvent compter sur l'avantage grâce à plusieurs facteurs: Roi plus en sécurité, contrôle des cases noires et meilleure structure de pions.
+Comment poursuivre? }
+1... a5 { Exact!
+Fixe la faiblesse en a4 et empêche tout contre jeu blanc à base de a5 } { [%csl Ra4] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 17"]
+[Site "https://lichess.org/study/6ztn8KRu/P1JF8ZXO"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 17"]
+[FEN "r1bq1rk1/1p1nn1b1/p2pp1pp/P1p5/2P1P3/2NB1N1P/1P3PP1/R1BQ1RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Les Blancs ont l'avantage, d'abord à cause de la position plus exposée du Roi noir, ensuite à une meilleure structure de pions et au meilleur centre.
+Comment agir? }
+1. e5 { Oui!
+Affaiblit la structure de pions après dxe5, ou les parages du Roi noir après la suite } (1. Bc2) (1. Be2) (1. Be3) 1... Nxe5 2. Nxe5 Bxe5 3. Bxh6 { Avec une position très supérieure, voire gagnante } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 18"]
+[Site "https://lichess.org/study/6ztn8KRu/tf0fUx38"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 18"]
+[FEN "r3rbk1/5pp1/2b1qn1p/p1pppN2/1p2P3/1PPP1P1N/1PQ3PP/2BRR2K w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+1. c4 { Pour laisser la position le plus possible fermée contre la paire de Fous des Noirs, et mettre les pions sur la couleur opposée à notre Fou, ce qui est un bon réflexe. } { [%csl Bc1,Ye4,Yd3,Yc4,Yb3,Yf3,Yg2,Rc6,Rf8] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 19"]
+[Site "https://lichess.org/study/6ztn8KRu/ny0czIvG"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 19"]
+[FEN "3r1r2/pp3k1p/2n4n/1N1p1pp1/8/1P1NP1P1/P4PKP/3R1R2 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Les Blancs ont l'avantage à cause de deux facteurs essentiels:
+- une meilleure structure de pions (pion isolé en d5 chez les Noirs)
+- des pièces globalement plus actives
+Comment poursuivre? }
+1. h4 { Bravo!
+Pour ruiner la structure de pions noire à l'aile roi, et si g4 Cf4 avec une position stratégiquement gagnante } { [%csl Bf4][%cal Rg5g4,Bd3f4] } (1. Rc1 { Est bon aussi avec l'idée d' activer la Tour f1, mais il y a mieux } { [%cal Bf1d1] }) (1. Nc5 { Est bon aussi pour attaquer l'aide dame, mais il y a encore mieux! }) 1... gxh4 2. Rh1 { Exact!
+Les Blancs vont faire Txh4, s'installer en f4 avec le Cavalier et commencer à attaquer le pion h } { [%csl Yh4,Yh6][%cal Bh1h7] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 20"]
+[Site "https://lichess.org/study/6ztn8KRu/HhGWq7Vv"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 20"]
+[FEN "nrb2rk1/1p5p/p2qpnp1/2NpNp2/P2P1P2/8/1PQ1PPBP/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Comment augmenter simplement l'avantage des Blancs }
+1. a5 { Oui!
+Assure la position du Cc5 en empêchant b6. } { [%csl Rb6] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 21"]
+[Site "https://lichess.org/study/6ztn8KRu/wMxtpj5A"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 21"]
+[FEN "r1r3k1/pp1bpp1p/3p1npR/q3n3/3NP1P1/1BN2P2/PPPQ4/2KR4 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Une position typique du Dragon.
+Comment poursuivre pour les Noirs? }
+1... Rxc3 { Exact!
+Fort sacrifice stratégique qui détruit la structure de pions blanche et permet aux Noirs d'avoir une cible d'attaque toute trouvé sur la colonne c } 2. bxc3 (2. Qxc3 Qxc3 3. bxc3 Rc8 { Avec la meilleure finale } { [%csl Rc3][%cal Bc8c3] }) *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 22"]
+[Site "https://lichess.org/study/6ztn8KRu/a2Uy3g2e"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 22"]
+[FEN "3r1r2/pp2qk1p/2npp1pn/1N3p2/2P5/1P2P1P1/PQ2NPKP/3R1R2 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Quel bon plan pour les Blancs? }
+1. Qa3 { Oui!
+Force l'avance du pion et provoque un affaiblissement de la structure de pions;
+C'est de cette façon bien souvent que les avantages se cumulent } 1... d5 2. cxd5 Rxd5 3. Rxd5 exd5 4. Qxe7+ Kxe7 5. Rd1 { Le pion d5 isolé consacre l'avantage blanc } { [%csl Rd5] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 24"]
+[Site "https://lichess.org/study/6ztn8KRu/nMyrMPlR"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 23"]
+[FEN "r1bqk2r/1p1n2pp/p2bpn2/3p1p2/3P4/2N2NP1/PPQ1PPBP/R1B2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Une position typique de la défense Hollandaise, structure dite "stonewall"
+La position noire semble solide, quoiqu'un peu resserrée, surtout pour le Fou noir de cases blanches qui a du mal à trouver de l'activité.
+Comment poursuivre? }
+1. Bf4 { Excellent!
+Puisque les pions noirs sont placés sur des cases blanches, il est pratique d'échanger ce Fou afin d'attaquer sur les cases noirs plus tard, même si cela affaiblit un peu la structure de pions des Blancs. } { [%csl Re6,Rd5,Rf5,Rc8][%cal Bf4d6] } 1... Bxf4 2. gxf4 { [%csl Bg2,Rc8][%cal Ba1c1,Bf3e5] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 24"]
+[Site "https://lichess.org/study/6ztn8KRu/3Yvcp2Z5"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 24"]
+[FEN "4kb2/2p5/1p4p1/2pPp3/P3P1P1/8/1P1B4/1K6 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Comment améliorer la position blanche? }
+1. a5 { Affaiblit la structure de pions noire à l'aile dame } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 25"]
+[Site "https://lichess.org/study/6ztn8KRu/XK9x5CPt"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 25"]
+[FEN "5rk1/4r1pp/2p5/p7/1p2b3/5P2/PPPRR1PP/6K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Les Blancs ont avoir un pion de plus, mais comment jouer ici? }
+1. Rd4 { Conserve une bonne structure de pions, et si les Noirs insistent } { [%cal Gd4e4,Ge2e4] } (1. fxe4 { Fait un pion isolé }) (1. Rxe4 Rxe4 2. fxe4 { crée un pion isolé }) 1... Rfe8 2. Rdxe4 Rxe4 3. Rxe4 { et les Noirs ne peuvent pas prendre ici, la finale de pions serait gagnante } 3... Rd8 4. Kf2 { il faut activer le Roi } 4... Rd2+ 5. Re2 { Bon avantage blanc } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 26"]
+[Site "https://lichess.org/study/6ztn8KRu/qEsVZpvS"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 26"]
+[FEN "2b2rk1/1p1n2pp/3p4/3Ppp2/1PP5/2N1qP2/4B1PP/Q4R1K b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Comment continuer ici? }
+1... b5 { Détruit la structure de pions des Blancs, profitant de la surcharge du Cavalier blanc qui doit défendre le Fou, et cxb5 serait à l'avantage des Noirs avec des pions blancs très faibles à l'aile dame
+Voir la partie https://lichess.org/6mPLst8l/black } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 27"]
+[Site "https://lichess.org/study/6ztn8KRu/EqBzt0Hq"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 27"]
+[FEN "r3brk1/pp4pp/q1n1p3/2PpP3/8/P4N2/1B1Q1PPP/R2R2K1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+1... Rxf3 { Sacrifie la qualité afin de ruiner la structure de pions des Blancs déjà endommagée et créer des chances d'attaque du côté du Roi, en profitant de la passivité du Fb2 } { [%csl Rb2] } (1... Bh5 { est très bien aussi! }) 2. gxf3 Bh5 *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 28"]
+[Site "https://lichess.org/study/6ztn8KRu/gUzgIAOj"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 28"]
+[FEN "r1bqk2r/ppp1nppp/2n5/3p4/1b1P4/2NB4/PPP1NPPP/R1BQ1RK1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Une position typique de la défense française variante d'échange.
+Quel plan et quel coup pour les Noirs? }
+1... Bf5 { Oui!
+Échangeant le mauvais Fou des Noirs contre le bon Fou des Blancs, et prenant une option sur le contrôle des cases blanches, notamment "e4" } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 29"]
+[Site "https://lichess.org/study/6ztn8KRu/4fpiBKHX"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 29"]
+[FEN "1b1r2k1/4rpp1/p2q1n2/2Rp1BB1/Np1P4/nP4P1/5PK1/3QR3 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+1. Rh1 { Pour attaquer sur la colonne "h" } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 30"]
+[Site "https://lichess.org/study/6ztn8KRu/S2Z9hmCE"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 30"]
+[FEN "2rrb1k1/p3qppp/1pp1p2b/8/1P1PP2P/P1QN1BP1/5P2/1R1R2K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+1. Ne5 { Oui, pour Jouer Cg4 et attaquer le Fou mal placé en h6 } { [%cal Be5g4] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 31"]
+[Site "https://lichess.org/study/6ztn8KRu/krdLv5lw"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 31"]
+[FEN "2k5/2r1bp2/pq1np1pp/1p1p4/3P1N2/PP2P3/4QPPP/1B3RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+{ Une position d'apparence équilibrée sans faiblesses flagrantes, où il s'agit plutôt de bien placer ses pièces. }
+1. Nd3 { Améliore la position du Cavalier blanc vers les cases fortes c5 ou e5 } { [%cal Bd3e5,Bd3c5] } *
+
+
+[Event "Le quotidien de la stratégie: Chapitre : 32"]
+[Site "https://lichess.org/study/6ztn8KRu/PUf59h3h"]
+[Result "*"]
+[Annotator "https://lichess.org/@/lamethod"]
+[Variant "From Position"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Quotidien de la stratégie 1"]
+[ChapterName "Chapter 32"]
+[FEN "4rbk1/2nq2p1/5p1p/B1p2P2/2P2N2/1Q6/1P4PP/4R2K w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.12.19"]
+[UTCTime "18:23:05"]
+
+1. Rd1 { Oui!
+Conserve la Tour et tire parti de la mauvaise position de la Dame noire, obligée de défendre le Cavalier } *
+
+
