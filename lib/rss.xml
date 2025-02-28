@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Feb 2025 13:09:17 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Feb 2025 13:09:15 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Feb 2025 09:36:17 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Feb 2025 09:36:11 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
@@ -241,4 +241,45 @@ C'est compliqué. <br>Une autre idée : On va trouver des polynômes  tels que <
    est multiple de <br>
  donc <br>
  Que vaut  ?<br><img alt="Capture d’écran 2025-02-17 à 11.17.05.png" src="lib/media/capture-d’écran-2025-02-17-à-11.17.05.png"><br>
-Ainsi <br>]]></description><link>enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md</guid><pubDate>Thu, 20 Feb 2025 10:33:30 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-17-à-11.09.30.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+Ainsi <br>]]></description><link>enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md</guid><pubDate>Thu, 20 Feb 2025 10:33:30 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-17-à-11.09.30.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Retour sur l'Interpolation de Lagrange]]></title><description><![CDATA[ 
+ <br><br><img alt="Lagrange_portrait.jpg" src="lib/media/lagrange_portrait.jpg"><br>Visualisation :<br>
+<a rel="noopener nofollow" class="external-link" href="https://www.desmos.com/calculator/pzfyv9wpyg" target="_blank">https://www.desmos.com/calculator/pzfyv9wpyg</a><br>Phénomène de Runge :<br>Calculer le polynôme de Lagrange qui coïncide avec cette fonction aux points d'abscisses <br>
+<img alt="Capture d’écran 2025-02-28 à 09.48.03.png" src="lib/media/capture-d’écran-2025-02-28-à-09.48.03.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 09.48.18.png" src="lib/media/capture-d’écran-2025-02-28-à-09.48.18.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 09.48.41.png" src="lib/media/capture-d’écran-2025-02-28-à-09.48.41.png"><br><br>Les polynômes divergent au bord de l'intervalle.<br>
+<a rel="noopener nofollow" class="external-link" href="https://www.desmos.com/calculator/uwtrvznnjh" target="_blank">https://www.desmos.com/calculator/uwtrvznnjh</a><br>Comment faire ? <br>
+<br>Changer la positions des points<br>
+Toute une théorie impliquant polynômes orthogonaux, fonctions de poids.<br>
+<img alt="Capture d’écran 2025-02-28 à 09.50.00.png" src="lib/media/capture-d’écran-2025-02-28-à-09.50.00.png">
+<br>Découper l'intervalle en petits intervalles et calculer des polynômes de Lagrange degrés 1 ou 2 sur chaque intervalle. 
+
+<br>Comment faire ce découpage ?<br>
+<img alt="Capture d’écran 2025-02-28 à 09.50.11.png" src="lib/media/capture-d’écran-2025-02-28-à-09.50.11.png">
+
+
+<br><br>Problème:  Comment calculer des intégrales ?<br>
+<img alt="Capture d’écran 2025-02-28 à 09.50.31.png" src="lib/media/capture-d’écran-2025-02-28-à-09.50.31.png"><br><br>On fait comme si  est constante sur l'intervalle  <br>
+<br>Faire un dessin 
+<br>Quelle catégorie de fonctions donne des résultats exacts par cette méthode ?<br>
+<img alt="Capture d’écran 2025-02-28 à 10.29.13.png" src="lib/media/capture-d’écran-2025-02-28-à-10.29.13.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.29.21.png" src="lib/media/capture-d’écran-2025-02-28-à-10.29.21.png">
+<br><br>
+<br>Découper en petits intervalles, 
+<br>Approcher  par une constante sur chaque intervalle.
+<br>
+<br>Faire un dessin 
+<br><img alt="Capture d’écran 2025-02-28 à 10.29.36.png" src="lib/media/capture-d’écran-2025-02-28-à-10.29.36.png"><br>
+<br>Ecrivez le pseudo code d'une fonction qui calcule l'intégrale d'une fonction  donnée avec  la longueur de l'intervalle passé en paramètre. 
+<br><img alt="Capture d’écran 2025-02-28 à 10.29.55.png" src="lib/media/capture-d’écran-2025-02-28-à-10.29.55.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.30.04.png" src="lib/media/capture-d’écran-2025-02-28-à-10.30.04.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.30.15.png" src="lib/media/capture-d’écran-2025-02-28-à-10.30.15.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.30.36.png" src="lib/media/capture-d’écran-2025-02-28-à-10.30.36.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.30.43.png" src="lib/media/capture-d’écran-2025-02-28-à-10.30.43.png"><br><img alt="Capture d’écran 2025-02-28 à 10.30.59.png" src="lib/media/capture-d’écran-2025-02-28-à-10.30.59.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.31.06.png" src="lib/media/capture-d’écran-2025-02-28-à-10.31.06.png"><br><br>Approcher  par une fonction  et approcher  par  <br><br>
+<br>Si  est le polynôme de Lagrange de , que vaut  ?
+<br><img alt="Capture d’écran 2025-02-28 à 10.31.28.png" src="lib/media/capture-d’écran-2025-02-28-à-10.31.28.png"><br>
+On retrouve la première méthode ci-dessus. <br><br>Et pour un polynôme avec un degré plus grand ?<br>
+<img alt="Capture d’écran 2025-02-28 à 10.31.55.png" src="lib/media/capture-d’écran-2025-02-28-à-10.31.55.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.32.17.png" src="lib/media/capture-d’écran-2025-02-28-à-10.32.17.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.32.32.png" src="lib/media/capture-d’écran-2025-02-28-à-10.32.32.png"><br>
+<img alt="Capture d’écran 2025-02-28 à 10.32.58.png" src="lib/media/capture-d’écran-2025-02-28-à-10.32.58.png"><br><br><img alt="Capture d’écran 2025-02-28 à 10.33.11.png" src="lib/media/capture-d’écran-2025-02-28-à-10.33.11.png">]]></description><link>enseignement/4-analyse-numérique/cm3-dérivation-et-intégration-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM3 - Dérivation et Intégration numérique.md</guid><pubDate>Fri, 28 Feb 2025 09:35:54 GMT</pubDate><enclosure url="lib/media/lagrange_portrait.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/lagrange_portrait.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
