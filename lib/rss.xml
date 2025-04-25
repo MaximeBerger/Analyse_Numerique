@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 24 Apr 2025 07:10:03 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 24 Apr 2025 07:10:00 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 25 Apr 2025 09:29:42 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 25 Apr 2025 09:29:39 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
@@ -249,7 +249,7 @@ Ainsi <br><br>On peut l'écrire aussi<br>
 <br>...<br>
 
 <br>On construit alors<br>
-et  convient <br><img alt="Capture d’écran 2025-02-17 à 11.17.16.png" src="lib/media/capture-d’écran-2025-02-17-à-11.17.16.png">]]></description><link>enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md</guid><pubDate>Mon, 24 Mar 2025 15:43:50 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-17-à-11.09.30.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Retour sur l'Interpolation de Lagrange]]></title><description><![CDATA[ 
+et  convient <br><img alt="Capture d’écran 2025-02-17 à 11.17.16.png" src="lib/media/capture-d’écran-2025-02-17-à-11.17.16.png">]]></description><link>enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md</guid><pubDate>Thu, 24 Apr 2025 07:11:58 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-17-à-11.09.30.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-17-à-11.09.30.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Retour sur l'Interpolation de Lagrange]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm3-d%C3%A9rivation-et-int%C3%A9gration-num%C3%A9rique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm3-d%C3%A9rivation-et-int%C3%A9gration-num%C3%A9rique.html" target="_blank">ce lien</a><br><br><img alt="Lagrange_portrait.jpg" src="lib/media/lagrange_portrait.jpg"><br>Visualisation :<br>
 <a rel="noopener nofollow" class="external-link" href="https://www.desmos.com/calculator/pzfyv9wpyg" target="_blank">https://www.desmos.com/calculator/pzfyv9wpyg</a><br>Phénomène de Runge :<br>Calculer le polynôme de Lagrange qui coïncide avec cette fonction aux points d'abscisses <br>
 <img alt="Capture d’écran 2025-02-28 à 09.48.03.png" src="lib/media/capture-d’écran-2025-02-28-à-09.48.03.png"><br>
@@ -321,7 +321,7 @@ D'autres méthodes plus rapides permettront d'obtenir des solutions approchées.
 <br><br><br>Les solutions du système sont très sensibles aux erreurs d'arrondis ! <br>]]></description><link>enseignement/4-analyse-numérique/cm4-analyse-numérique-matricielle.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM4 - Analyse numérique matricielle.md</guid><pubDate>Wed, 19 Mar 2025 20:32:30 GMT</pubDate></item><item><title><![CDATA[CM5 - Résolution numérique d'équations différentielles]]></title><description><![CDATA[ 
  ]]></description><link>enseignement/4-analyse-numérique/cm5-résolution-numérique-d&apos;équations-différentielles.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM5 - Résolution numérique d&apos;équations différentielles.md</guid><pubDate>Tue, 04 Feb 2025 08:46:33 GMT</pubDate></item><item><title><![CDATA[Consignes]]></title><description><![CDATA[ 
  <br>La version interactive de ce TP se trouve ici :<br>
-<a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-numerique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-numerique.html" target="_blank">ce lien</a><br>Point fixe, Dichotomie, Newton, Interpolation polynomiale, Calcul approché d'intégrales. <br><br>Intelligence artificielle interdite dans votre rendu final. <br>
+<a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" target="_blank">ce lien</a><br>Point fixe, Dichotomie, Newton, Interpolation polynomiale, Calcul approché d'intégrales. <br><br>Intelligence artificielle interdite dans votre rendu final. <br>
 <br>Soupçons -&gt; Division de la note par 2
 <br>Certitude -&gt; 0/20
 <br>Vous pouvez vous en servir pour demander des exemples simples ou poser des questions. 
@@ -332,7 +332,7 @@ D'autres méthodes plus rapides permettront d'obtenir des solutions approchées.
 Vous reprendrez la structure de ce sujet avec les titres et les sous-titres. 
 <br>Vous pouvez travailler seul ou par binôme.<br>
 Vous rendrez votre rapport en format pdf, avec les noms des membres du binôme dans le nom du fichier avant le 4 Mai 23h59 en déposant votre fichier sur ce lien :<br>
-<a data-tooltip-position="top" aria-label="https://www.dropbox.com/request/rUe4FWuRQkdGPKSVUmD0" rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/request/rUe4FWuRQkdGPKSVUmD0" target="_blank">Dépôt TP1</a><br>Certaines questions sont étoilées, vous pouvez les passer si vous vous sentez en retard. Il n'est pas nécessaire de répondre à toutes les questions pour obtenir une bonne note. N'hésitez pas à prendre des initiatives, certaines questions sont volontairement ouvertes. <br>Poser des questions si vous êtes coincés. Pendant le TP ou par email.<br><br>Pour compiler votre code, vous pouvez utiliser au choix <br>
+<a data-tooltip-position="top" aria-label="https://www.dropbox.com/request/rUe4FWuRQkdGPKSVUmD0" rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/request/rUe4FWuRQkdGPKSVUmD0" target="_blank">Dépôt TP1</a><br>Certaines questions sont étoilées, passez-les puis revenez-y lorsque vous aurez terminé toutes les questions non-étoilées. Il n'est pas nécessaire de répondre à toutes les questions pour obtenir une bonne note. <br>Posez des questions si vous êtes coincés. Pendant le TP ou par email.<br><br>Pour compiler votre code, vous pouvez utiliser au choix <br>
 <br>Spyder
 <br>N'importe quel éditeur de texte, puis compiler depuis le terminal. 
 <br><br><br>Pour tracer des fonctions, on peut utiliser numpy et matplotlib. <br>Il vous suffira d'appeler la fonction suivante pour tracer un graphe:<br>import numpy as np
@@ -345,32 +345,29 @@ def plot_function(f, a, b, n=100):
     plt.plot(x_plot, y_plot)
 <br>En fonction de la façon dont vous compilez python, il vous faudra peut-être ajouter la ligne suivante après l'appel des fonctions : <br>plt.show()
 <br>Questions :<br>
-<br>Représentez le graphe de la fonction sinus (avec f = np.sin) sur l'intervalle  
-<br>Que se passe-t-il si on change la valeur de n ? Testez avec n=5, n=10 et n=1000 et notez vos observations. Faudra-t-il une valeur de n plus ou moins élevée si on veut afficher un intervalle plus grand ?
-<br>* Que se passe-t-il si a &gt; b ? Modifiez la fonction pour qu'elle gère ce cas.
-<br>Affichez maintenant une sinusoïde qui oscille deux fois plus vite que la fonction sinus. 
+<br>Représentez le graphe de la fonction sinus (en appelant la fonction avec f = np.sin) sur l'intervalle  
+<br>Que se passe-t-il si on change la valeur de n ? Testez avec n=10 et n=1000 et notez vos observations. Faudra-t-il une valeur de n plus ou moins élevée si on veut afficher un intervalle plus grand ?
 <br>Vous pouvez aussi créer des fonctions à la main puis les tracer avec le code précédent. <br>def f(x):
     return x**2 - 2
 
 plot_function(f, -1, 1)
 <br>Questions :<br>
-<br>Modifiez la fonction f pour tracer une parabole plus large sans changer l'abscisse du sommet.
-<br>* Ecrivez une fonction qui prend en paramètre une fonction , un point d'abscisse  et qui trace la tangente à la courbe de  en .
-<br>Que se passe-t-il si on essaie de tracer la fonction f(x) = 1/x sur l'intervalle [-1,1] ? et sur [-0.999, 1.001 ] ? Pourquoi ?
+<br>Modifiez la fonction f pour tracer une parabole plus large sans changer l'abscisse du sommet. Afficher les deux paraboles sur le même graphe en appelant deux fois la fonction plot_function 
+<br>** Ecrivez une fonction qui prend en paramètre une fonction , un point d'abscisse  et qui trace la tangente à la courbe de  en .
 <br>Si vous avez besoin de sauvegarder un graphe, vous pouvez le faire avec la fonction savefig. <br>plt.savefig('fonctions_trigo.png')
 <br><br>Pour afficher des variables ou un message dans la console, on utilise usuellement print, comme par exemple :<br>print("Bonjour")
 <br>On peut mélanger du texte et des variables avec des f-strings, il suffit d'ajouter la lettre f devant les guillemets :<br>a = 5
 b = 3
 print(f"La somme de {a} et {b} est {a + b}")
-<br>On peut aussi modifier le nombre de décimales affiché :<br>pi = 3.14159265359
-print(f"Pi avec 2 décimales : {pi:.2f}")
-print(f"Pi avec 4 décimales : {pi:.4f}")
-<br>ou manipuler des expressions sans avoir à les stocker dans des variables<br>print(f"Le carré de {a} est {a**2}")
+<br>On peut aussi modifier le nombre de décimales affiché :<br>print(f"Pi avec 2 décimales : {np.pi:.2f}")
+print(f"Pi avec 4 décimales : {np.pi:.4f}")
+<br>ou manipuler des expressions sans avoir à les stocker dans des variables<br>a= 4.5
+print(f"Le carré de {a} est {a**2}")
 print(f"La racine carrée de {a} est {a**0.5:.2f}")
 <br>Questions :<br>
-<br>Ecrivez le code pour afficher la valeur de  en  avec 5 décimales. 
+<br>Ecrivez le code pour afficher la valeur de  en  avec 5 décimales. (vous pourrez utiliser la fonction np.expde numpy)
 <br>Créez une fonction avec une boucle qui affiche la table de multiplication du nombre 7 en utilisant les f-strings.
-<br>Enveloppez cette boucle dans une autre boucle pour afficher les tables de multiplication de 1 à 9. 
+<br>Enveloppez cette boucle dans une autre boucle pour afficher toutes les tables de multiplication de 1 à 9. 
 <br><br>Au cours de ce TP, il vous sera demandé plusieurs fois de comparer des performances d'algorithmes, pour cela, vous pourrez utiliser la fonction time.time(). Par exemple :<br>import time
 
 start_time = time.time()
@@ -381,7 +378,7 @@ end_time = time.time()
 
 print(f"Temps d'évaluation : {end_time - start_time} secondes")
 <br>
-<br>Mesurer le temps d'exécution de votre boucle précédente qui affiche les tables de multiplication. 
+<br>Mesurer le temps d'exécution de votre boucle précédente qui affiche les tables de multiplication, vous pouvez augmenter le temps en affichant plus de tables de multiplications. 
 <br><br>Exécutez le code suivant et observez le résultat. Qu'en pensez-vous ?<br>import math
 
 print(f"0.1 + 0.2 = {0.1 + 0.2}") 
@@ -390,7 +387,7 @@ print(f"0.1 + 0.2 == 0.3 ? {0.1 + 0.2 == 0.3}")
 print(f"(racine de 2)^2 = {math.sqrt(2)**2}")  
 <br>Questions :<br>
 <br>Pourquoi 0.1 + 0.2 ne donne-t-il pas exactement 0.3 ? Expliquez en 2 phrases, vous pouvez faire des recherches.
-<br>Créez une boucle qui additionne 0.1 un million de fois et affichez le résultat théorique et la valeur obtenue.
+<br>Créez une boucle qui additionne 0.1 un million de fois dans une variable s, affichez le résultat théorique et la valeur obtenue.
 <br>D'autres "erreurs" de calculs : <br># Avec des grands nombres :
 grand_nombre = 1e16
 print(f"1e16 + 1 = {grand_nombre + 1}")
@@ -404,55 +401,67 @@ print(f"b = {b}")
 print(f"a == b ? {a == b}")
 <br>
 <br>Les trois méthodes du chapitre suivant sont itératives : elles utilisent le résultat d'un calcul comme point de départ pour le calcul suivant. A quoi faudra-t-il faire attention ? 
-<br><br>Lors des premiers CM, nous avons vu 3 méthodes pour résoudre des équations de la forme . <br><br>Lisez, exécutez puis expliquez le code suivant. Vers quelle valeur devrait converger la suite ? <br>import numpy as np
+<br><br>Lors des premiers CM, nous avons vu 3 méthodes pour résoudre des équations de la forme . <br><br>import numpy as np
 import matplotlib.pyplot as plt
 
+
+
+def iterative_process(x0, n):
+    x = np.zeros(n) # Créer un tableau de n cases rempli de 0
+    
+    x[0] = x0
+    
+    for i in range(1, n):
+        x[i] = np.cos(x[i-1]) # Ligne principale
+    
+    return x
+
 x0 = 0.5  
-iterations = 50
+n = 50
 
-def iterative_process(x0, iterations):
-    x_exact = np.zeros(iterations)
-    
-    x_exact[0] = x0
-    
-    for i in range(1, iterations):
-        x_exact[i] = np.cos(x_exact[i-1])
-    
-    return x_exact
-
-x = iterative_process(x0, iterations)
+x = iterative_process(x0, n)
 
 plt.plot(x)
 <br>Questions :<br>
-<br>Utilisez les fonction de numpy pour calculer la valeur de la limite de la suite.
-<br>Testez différentes valeurs initiales x0. Observez-vous toujours la convergence ? Essayez des valeurs extrêmes. 
-<br>* Créez une fonction qui calcule le nombre d'itérations nécessaires pour atteindre une précision donnée.
-<br>* Comparez la vitesse de convergence pour d'autres fonctions que le cosinus.
-<br>Le code suivant compare deux suites régies par la même relation de récurrence, mais avec une légère différence dans la valeur initiale.<br>
-Qu'observez-vous ? <br>def iterative_process(x0, iterations):
-    x_exact = np.zeros(iterations)
-    x_approx = np.zeros(iterations)
+<br>
+Lisez, exécutez puis expliquez le code suivant. 
+
+<br>
+Examinez la ligne principale, pour quelle équation ce code essaie-t-il de trouver une solution ? 
+
+<br>
+Tracer les graphes des fonctions  et  et pointez sur le graphe la solution de l'équation. 
+
+<br>
+Testez différentes valeurs initiales x0. Observez-vous toujours la convergence ? Essayez des valeurs extrêmes. Vous pouvez toutes les tracer sur le même graphe.  
+
+<br>
+* Créez une fonction qui calcule le nombre d'itérations nécessaires pour atteindre une précision  que vous passerez en paramètre.
+
+<br>Le code suivant compare deux suites régies par la même relation de récurrence, mais avec une légère différence dans la valeur initiale. <br>def iterative_process(x0, n):
+    x = np.zeros(n)
+    x_approx = np.zeros(n)
     
-    x_exact[0] = x0
+    x[0] = x0
     x_approx[0] = x0 + 1e-10 
     
-    for i in range(1, iterations):
-        x_exact[i] = 30*np.cos(x_exact[i-1])
+    for i in range(1, n):
+        x[i] = 30*np.cos(x_exact[i-1])
         x_approx[i] = 30*np.cos(x_approx[i-1])
     
-    return x_exact, x_approx
+    return x, x_approx
 
 x0 = 0.2  
-iterations = 50 
+n = 50 
 
-x_exact, x_approx = iterative_process(x0, iterations)
+x_exact, x_approx = iterative_process(x0, n)
 
 differences = np.abs(x_exact - x_approx)
 
 plt.semilogy(differences, label="Erreur d'approximation")
 <br>Questions :<br>
 <br>Quelle équation cet algorithme permet-il de résoudre ?
-<br>Pourquoi la suite diverge-t-elle alors que l'algorithme précédent convergeait, qu'elle que soit la valeur initiale ? Rappelez le théorème du cours utile dans ce contexte. 
+<br>Pourquoi la suite diverge-t-elle alors que l'algorithme précédent convergeait, qu'elle que soit la valeur initiale ? Rappelez l'hypothèse du théorème du cours utile dans ce contexte. 
 <br>* Analysez la stabilité de la méthode en fonction de la valeur de la perturbation.
 <br><br>Considérons la suite définie par :<br><br>Questions :<br>
 <br>Vers quoi devrait converger cette suite ?
@@ -597,8 +606,6 @@ print(integrale(lambda x: x**2, 0, 1, 1000))
 <br>Questions :<br>
 <br>Choisissez une fonction dont vous pouvez calculer l'intégrale à la main et comparez le résultat théorique avec cette méthode. 
 <br>* Illustrez sur un graphe la convergence de la méthode lorsque le nombre de rectangles augmente. 
-<br>Modifiez la fonction pour implémenter la méthode des rectangles à droite.
-<br>La méthode à gauche ou à droite est-elle meilleure que l'autre ? 
 <br>* Créez une fonction qui adapte automatiquement le nombre de subdivisions pour atteindre une précision donnée.
 <br><br>
 <br>Implémentez la méthode des trapèzes et comparez-la avec la méthode des rectangles. Vous pourrez par exemple mesurer le temps d'exécution pour atteindre une précision donnée. 
@@ -635,4 +642,4 @@ Si  est le polynôme de Lagrange associé au point , on définit les polynômes<
 <br>Analysez l'erreur d'interpolation pour différentes fonctions.
 <br>Créez une fonction qui combine interpolation et dérivées pour obtenir une meilleure approximation. 
 <br>Ecrivez un programme qui calcule l'intégrale d'une fonction  en se basant sur les polynômes de Hermite. 
-]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Thu, 24 Apr 2025 07:09:38 GMT</pubDate></item></channel></rss>
+]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Fri, 25 Apr 2025 09:29:23 GMT</pubDate></item></channel></rss>
