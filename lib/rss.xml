@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 25 Apr 2025 09:29:42 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 25 Apr 2025 09:29:39 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 27 Apr 2025 14:33:15 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 27 Apr 2025 14:33:12 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
@@ -321,7 +321,8 @@ D'autres méthodes plus rapides permettront d'obtenir des solutions approchées.
 <br><br><br>Les solutions du système sont très sensibles aux erreurs d'arrondis ! <br>]]></description><link>enseignement/4-analyse-numérique/cm4-analyse-numérique-matricielle.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM4 - Analyse numérique matricielle.md</guid><pubDate>Wed, 19 Mar 2025 20:32:30 GMT</pubDate></item><item><title><![CDATA[CM5 - Résolution numérique d'équations différentielles]]></title><description><![CDATA[ 
  ]]></description><link>enseignement/4-analyse-numérique/cm5-résolution-numérique-d&apos;équations-différentielles.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/CM5 - Résolution numérique d&apos;équations différentielles.md</guid><pubDate>Tue, 04 Feb 2025 08:46:33 GMT</pubDate></item><item><title><![CDATA[Consignes]]></title><description><![CDATA[ 
  <br>La version interactive de ce TP se trouve ici :<br>
-<a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" target="_blank">ce lien</a><br>Point fixe, Dichotomie, Newton, Interpolation polynomiale, Calcul approché d'intégrales. <br><br>Intelligence artificielle interdite dans votre rendu final. <br>
+<a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-1-analyse-num%C3%A9rique.html" target="_blank">ce lien</a><br>
+Cette version interactive vous permettra de copier-coller le python plus facilement !<br>Point fixe, Dichotomie, Newton, Interpolation polynomiale, Calcul approché d'intégrales. <br><br>Intelligence artificielle interdite dans votre rendu final. <br>
 <br>Soupçons -&gt; Division de la note par 2
 <br>Certitude -&gt; 0/20
 <br>Vous pouvez vous en servir pour demander des exemples simples ou poser des questions. 
@@ -446,7 +447,7 @@ Testez différentes valeurs initiales x0. Observez-vous toujours la convergence 
     x_approx[0] = x0 + 1e-10 
     
     for i in range(1, n):
-        x[i] = 30*np.cos(x_exact[i-1])
+        x[i] = 30*np.cos(x[i-1])
         x_approx[i] = 30*np.cos(x_approx[i-1])
     
     return x, x_approx
@@ -642,4 +643,4 @@ Si  est le polynôme de Lagrange associé au point , on définit les polynômes<
 <br>Analysez l'erreur d'interpolation pour différentes fonctions.
 <br>Créez une fonction qui combine interpolation et dérivées pour obtenir une meilleure approximation. 
 <br>Ecrivez un programme qui calcule l'intégrale d'une fonction  en se basant sur les polynômes de Hermite. 
-]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Fri, 25 Apr 2025 09:29:23 GMT</pubDate></item></channel></rss>
+]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Sun, 27 Apr 2025 14:32:42 GMT</pubDate></item></channel></rss>
