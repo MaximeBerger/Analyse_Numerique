@@ -1,6 +1,6 @@
 {
   "vaultName": "ESTP",
-  "lastExport": 1747988897764,
+  "lastExport": 1747990180448,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -159,7 +159,7 @@
   ],
   "fileInfo": {
     "Enseignement/4 - Analyse Numérique/CM 1 - Introduction.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 7001,
       "exportedPath": "enseignement/4-analyse-numérique/cm-1-introduction.html",
       "dependencies": [
@@ -174,7 +174,7 @@
       ]
     },
     "Enseignement/4 - Analyse Numérique/CM2 - Approximation Polynomiale.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 10136,
       "exportedPath": "enseignement/4-analyse-numérique/cm2-approximation-polynomiale.html",
       "dependencies": [
@@ -201,7 +201,7 @@
       ]
     },
     "Enseignement/4 - Analyse Numérique/CM3 - Dérivation et Intégration numérique.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 3055,
       "exportedPath": "enseignement/4-analyse-numérique/cm3-dérivation-et-intégration-numérique.html",
       "dependencies": [
@@ -231,603 +231,603 @@
       ]
     },
     "Enseignement/4 - Analyse Numérique/CM4 - Analyse numérique matricielle.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 2043,
       "exportedPath": "enseignement/4-analyse-numérique/cm4-analyse-numérique-matricielle.html",
       "dependencies": []
     },
     "Enseignement/4 - Analyse Numérique/CM5 - Résolution numérique d'équations différentielles.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 0,
       "exportedPath": "enseignement/4-analyse-numérique/cm5-résolution-numérique-d'équations-différentielles.html",
       "dependencies": []
     },
     "Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 19111,
       "exportedPath": "enseignement/4-analyse-numérique/tp-1-analyse-numérique.html",
       "dependencies": []
     },
     "Enseignement/4 - Analyse Numérique/TP 2 Analyse Numérique.md": {
-      "modifiedTime": 1747988897764,
-      "sourceSize": 10702,
+      "modifiedTime": 1747990180448,
+      "sourceSize": 10723,
       "exportedPath": "enseignement/4-analyse-numérique/tp-2-analyse-numérique.html",
       "dependencies": [
         "lib/media/capture-d’écran-2025-02-03-à-14.20.25.png"
       ]
     },
     "lib/media/capture-d’écran-2025-02-03-à-14.20.25.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 116386,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-14.20.25.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-14.20.49.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 35062,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-14.20.49.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-02-à-17.40.33.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 123898,
       "exportedPath": "lib/media/capture-d’écran-2025-02-02-à-17.40.33.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-13.43.04.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 78271,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-13.43.04.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-13.44.56.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 156941,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-13.44.56.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-14.22.47.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 145952,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-14.22.47.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-14.21.23.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 133409,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-14.21.23.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-03-à-14.21.49.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 205816,
       "exportedPath": "lib/media/capture-d’écran-2025-02-03-à-14.21.49.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.09.30.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 142331,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.09.30.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.09.49.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 109136,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.09.49.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.12.41.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 42445,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.12.41.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.12.53.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 86229,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.12.53.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.13.12.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 231719,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.13.12.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.13.25.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 135404,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.13.25.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.13.45.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 73317,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.13.45.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.14.23.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 64606,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.14.23.png",
       "dependencies": []
     },
     "lib/media/valeurs-des-termes-$u_k$-de-la-série-de-$e^{-10}$-pour-$k=0$-à-$25$.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 62356,
       "exportedPath": "lib/media/valeurs-des-termes-$u_k$-de-la-série-de-$e^{-10}$-pour-$k=0$-à-$25$.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.14.39.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 96123,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.14.39.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.14.49.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 29637,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.14.49.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.15.11.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 47164,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.15.11.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.15.26.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 40000,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.15.26.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.15.36.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 63756,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.15.36.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.15.45.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 47476,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.15.45.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.16.06.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 60568,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.16.06.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.16.30.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 98995,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.16.30.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.16.57.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 151112,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.16.57.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.17.05.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 42369,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.17.05.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-17-à-11.17.16.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 112340,
       "exportedPath": "lib/media/capture-d’écran-2025-02-17-à-11.17.16.png",
       "dependencies": []
     },
     "lib/media/lagrange_portrait.jpg": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 12450,
       "exportedPath": "lib/media/lagrange_portrait.jpg",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.48.03.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 150140,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.48.03.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.48.18.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 143293,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.48.18.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.48.41.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 128886,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.48.41.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.50.00.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 28517,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.50.00.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.50.11.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 188289,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.50.11.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-09.50.31.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 124050,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-09.50.31.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.29.13.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 148737,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.29.13.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.29.21.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 55462,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.29.21.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.29.36.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 133225,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.29.36.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.29.55.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 73920,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.29.55.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.30.04.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 127669,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.30.04.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.30.15.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 114557,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.30.15.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.30.36.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 148802,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.30.36.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.30.43.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 91335,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.30.43.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.30.59.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 146279,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.30.59.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.31.06.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 93383,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.31.06.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.31.28.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 118511,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.31.28.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.31.55.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 97632,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.31.55.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.32.17.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 141086,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.32.17.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.32.32.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 183345,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.32.32.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.32.58.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 131935,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.32.58.png",
       "dependencies": []
     },
     "lib/media/capture-d’écran-2025-02-28-à-10.33.11.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 197593,
       "exportedPath": "lib/media/capture-d’écran-2025-02-28-à-10.33.11.png",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 8131,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 199467,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 18517,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 279,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1747988897764,
+      "modifiedTime": 1747990180448,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
