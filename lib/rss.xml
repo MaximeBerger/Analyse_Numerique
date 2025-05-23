@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 23 May 2025 06:32:19 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 23 May 2025 06:32:16 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 23 May 2025 07:15:01 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 23 May 2025 07:14:58 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
@@ -722,19 +722,15 @@ Faite de même si maintenant Qu'en pensez-vous ?
 		b[i] = 1 # b est la i-ième colonne de la matrice identité
 		N[:,i] = SolveTriInf(L, b)
 		M[:,i] = SolveTriSup(U, N[:,i]) # M est la matrice inverse de A
-	return M```
+	return M
+<br>
+<br>
+Comparer la vitesse pour résoudre un système linéaire en calculant l'inverse ou en résolvant les deux systèmes triangulaires. Vous pourrez prendre de grandes matrices aléatoires. 
 
-7. Comparer la vitesse pour résoudre un système linéaire en calculant l'inverse ou en résolvant les deux systèmes triangulaires. Vous pourrez prendre de grandes matrices aléatoires. 
+<br>
+Reprenez l'exemple précédent avec . Calculez  et expliquez le comportement de la question 6.  
 
-8. Reprenez l'exemple précédent avec $AX=Y$. Calculez $A^{-1}$ et expliquez le comportement de la question 6.  
-
-# \*Méthode de Jacobi : 
-Si vous n'êtes pas en avance, vous pouvez passer cette partie. 
-
-La méthode de Jacobi permet d'obtenir des solutions approchées d'un système avec une méthode itérative. 
-
-```python
-def Jacobi(A, b, x0, tol=1e-6, max_iter=100):
+<br><br>Si vous n'êtes pas en avance, vous pouvez passer cette partie. <br>La méthode de Jacobi permet d'obtenir des solutions approchées d'un système avec une méthode itérative. <br>def Jacobi(A, b, x0, tol=1e-6, max_iter=100):
 	n = len(A)
 	x = x0
 	for k in range(max_iter):
@@ -766,4 +762,4 @@ En posant , l'équation s'écrit aussi :<br>
 on peut simplifier l'équation différentielle :<br>
 14. Au brouillon, commencez par écrire les expressions obtenues pour  puis généralisez. Écrire les équations pour chacun des noeuds, en remarquant que<br>
 Ecrivez la collection d’équations sous la forme matricielle<br>
-15. Formez en python la matrice  puis utilisez les outils de la première section pour tracer la solution . Vous pourrez augmenter le nombre de segments pour obtenir une solution plus lisse. ]]></description><link>enseignement/4-analyse-numérique/tp-2-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 2 Analyse Numérique.md</guid><pubDate>Fri, 23 May 2025 06:32:00 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+15. Formez en python la matrice  puis utilisez les outils de la première section pour tracer la solution . Vous pourrez augmenter le nombre de segments pour obtenir une solution plus lisse. ]]></description><link>enseignement/4-analyse-numérique/tp-2-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 2 Analyse Numérique.md</guid><pubDate>Fri, 23 May 2025 07:14:28 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
