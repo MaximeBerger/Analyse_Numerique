@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 27 Apr 2025 14:33:15 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 27 Apr 2025 14:33:12 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ESTP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ESTP</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 23 May 2025 05:35:22 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 23 May 2025 05:35:19 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[C'est quoi l'Analyse numérique ?]]></title><description><![CDATA[ 
  <br>La version interactive de ce cours est disponible sur <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/cm-1-introduction.html" target="_blank">ce lien</a><br><br>Au carrefour entre Maths, Ingénierie et Informatique : <br>
 <br>Modéliser des problèmes physiques
 <br>Traduire le problème en équation
@@ -328,7 +328,7 @@ Cette version interactive vous permettra de copier-coller le python plus facilem
 <br>Vous pouvez vous en servir pour demander des exemples simples ou poser des questions. 
 <br>Vous rendrez un rapport de TP avec <br>
 <br>les réponses aux questions, 
-<br>les parties de code que vous avez modifiée ou écrite en les expliquant, 
+<br>les parties de code que vous avez modifiées ou écrites en les expliquant, 
 <br>les graphes que vous avez tracés.<br>
 Vous reprendrez la structure de ce sujet avec les titres et les sous-titres. 
 <br>Vous pouvez travailler seul ou par binôme.<br>
@@ -643,4 +643,118 @@ Si  est le polynôme de Lagrange associé au point , on définit les polynômes<
 <br>Analysez l'erreur d'interpolation pour différentes fonctions.
 <br>Créez une fonction qui combine interpolation et dérivées pour obtenir une meilleure approximation. 
 <br>Ecrivez un programme qui calcule l'intégrale d'une fonction  en se basant sur les polynômes de Hermite. 
-]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Sun, 27 Apr 2025 14:32:42 GMT</pubDate></item></channel></rss>
+]]></description><link>enseignement/4-analyse-numérique/tp-1-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 1 Analyse Numérique.md</guid><pubDate>Thu, 22 May 2025 08:01:20 GMT</pubDate></item><item><title><![CDATA[TP 2 Analyse Numérique]]></title><description><![CDATA[ 
+ <br>La version interactive de ce TP se trouve ici :  <a data-tooltip-position="top" aria-label="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-2-analyse-num%C3%A9rique.html" rel="noopener nofollow" class="external-link" href="https://maximeberger.github.io/Analyse_Numerique/enseignement/4-analyse-num%C3%A9rique/tp-2-analyse-num%C3%A9rique.html" target="_blank">ce lien</a><br>Cette version interactive vous permettra de copier-coller le code python plus facilement !<br>Thèmes: <br>
+Décomposition LU, Systèmes linéaires, inverse de matrices, Equations différentielles. Application
+<br><br>Vous rendrez A la fin de la séance votre rapport en déposant votre fichier sur ce lien :  <a data-tooltip-position="top" aria-label="https://www.dropbox.com/request/AnYEHDuv6kPmB1CkVef3" rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/request/AnYEHDuv6kPmB1CkVef3" target="_blank">Dépôt TP2</a><br>
+Si vous le souhaitez, vous pouvez poursuivre le travail chez vous et rendre un rapport amélioré avant le 1er juin 23h59. Votre note sera augmentée d'un maximum de 5 points<br>L’utilisation d’outils comme ChatGPT ou Copilot est autorisée pour apprendre, mais toute production de texte/code générée doit être reformulée ou réécrite personnellement dans le rapport final.<br>
+<br>Soupçons -&gt; Division de la note par 2
+<br>Certitude -&gt; 0/20
+<br>Vous rendrez un rapport de TP avec <br>
+<br>les réponses aux questions, 
+<br>les parties de code que vous avez modifiées ou écrites en les expliquant, 
+<br>les graphiques que vous avez générés<br>
+Vous reprendrez la structure de ce sujet avec les titres et les sous-titres. 
+<br>Vous pouvez travailler seul ou par binôme.<br><br>Nous avions établi en TD l'algorithme suivant pour obtenir la décomposition LU d'une matrice<br>import numpy as np
+
+def DecomposeLU(A):
+	n = len(A)
+	L = np.eye(n) # Matrice identité
+	U = np.zeros((n,n)) # Matrice nulle
+	
+	for i in range(n):
+		# Calcul de la i-ème ligne de U
+		for j in range(i, n):
+			U[i,j] = A[i,j] - sum(L[i,k] * U[k,j] for k in range(i))
+		# Calcul de la i-ème colonne de L
+		for j in range(i+1, n):
+			L[j,i] = (A[j,i] - sum(L[j,k] * U[k,i] for k in range(i))) / U[i,i]
+		
+	
+	return L, U
+<br>Prenons la matrice <br><br>qui peut s'écrire en python<br>A = np.array([[1, 1, 2], [1, 2, 1], [2, 1, 1]])
+<br>
+<br>Vérifiez que la décomposition LU que nous avions calculée au TD 2 est correcte :<br>
+
+<br>La décomposition  d'une matrice  est :
+<br><br>Faites calculer la matrice  à python, puis recalculer  et . Obtient-on bien le même résultat ?<br>
+Pour faire un produit matriciel, on utilise A @ B avec l’opérateur @, qui réalise le produit matriciel.<br>* Formez une matrice carrée aléatoire de taille  pour commencer. Mesurez le temps pour calculer la décomposition LU de cette matrice. Si vous êtes à l'aise, vous pourrez tracer le temps mis par la fonction en fonction de . <br>
+Il existe des outils pour visualiser de grandes matrices en python, essayez par exemple 
+<br>matplotlib.pyplot.imshow(A)
+<br><br>En TD, nous avons utilisé la décomposition LU pour ramener tout système linéaire à des systèmes triangulaires. <br>Commençons donc par essayer de résoudre des systèmes triangulaires :<br>Si  est une matrice triangulaire supérieure, le système s'écrit<br><br>Pour résoudre ce genre de système, on commence par la dernière ligne puis on remonte les calculs : <br><br>Pour résoudre un système triangulaire supérieur, on peut donc utiliser :<br>def SolveTriSup(U, b):
+	n = len(U)
+	x = np.zeros(n)
+	for i in range(n-1, -1, -1):
+		x[i] = (b[i] - sum(U[i,j] * x[j] for j in range(i+1, n))) / U[i,i]
+	return x
+<br>
+<br>
+Ecrivez une fonction similaire SolveTriInf(L, b) pour résoudre un système triangulaire inférieur
+
+<br>
+Ecrivez une fonction python Resoudre(A, b) qui donne la solution du système linéaire  ( la fonction contient 3 lignes de code. )
+
+<br>Reprenons la matrice  dont la décomposition   est :<br><br>
+<br>
+Résoudre le système  avec le vecteur .
+
+<br>
+Afficher la solution du système linéaire  avec 
+
+Faite de même si maintenant Qu'en pensez-vous ?
+
+<br><br>La décomposition LU permet aussi de calculer l'inverse d'une matrice. <br>Pour calculer l'inverse, on peut utiliser le programme suivant <br>def Inverse(A):
+	L, U = DecomposeLU(A)
+	n = len(A)
+	N = np.zeros((n,n))
+	M = np.zeros((n,n)) 
+	for i in range(n):
+		b = np.zeros(n)
+		b[i] = 1 # b est la i-ième colonne de la matrice identité
+		N[:,i] = SolveTriInf(L, b)
+		M[:,i] = SolveTriSup(U, N[:,i]) # M est la matrice inverse de A
+	return M```
+
+7. Comparer la vitesse pour résoudre un système linéaire en calculant l'inverse ou en résolvant les deux systèmes triangulaires. Vous pourrez prendre de grandes matrices aléatoires. 
+
+8. Reprenez l'exemple précédent avec $AX=Y$. Calculez $A^{-1}$ et expliquez le comportement de la question 6.  
+
+# \*Méthode de Jacobi : 
+Si vous n'êtes pas en avance, vous pouvez passer cette partie. 
+
+La méthode de Jacobi permet d'obtenir des solutions approchées d'un système avec une méthode itérative. 
+
+```python
+def Jacobi(A, b, x0, tol=1e-6, max_iter=100):
+	n = len(A)
+	x = x0
+	for k in range(max_iter):
+		x_new = np.zeros(n)
+		for i in range(n):
+			x_new[i] = (b[i] - sum(A[i,j] * x[j] for j in range(n) if j != i)) / A[i,i]
+		if np.linalg.norm(x_new - x) &lt; tol:
+			return x_new
+<br>
+<br>
+Ecrivez une fonction qui calcule la distance entre deux vecteurs et tracer la distance entre les points intermédiaires de la méthode et la solution du système : 
+
+
+<br>
+Comparer la vitesse de la méthode Jacobi avec les méthodes de résolutions exactes des sections précédentes. Pour vous assurer de la convergence de la méthode de Jacobi, vous pourrez ajouter  à une grande matrice aléatoire. 
+
+<br><br>On cherche à casser une règle en plastique en la pliantde 30 cm.<br>
+On note y(x) le déplacement transversal positif vers la droite.<br>
+<img alt="Capture d’écran 2025-02-03 à 14.20.25.png" src="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" style="width: 450px; max-width: 100%;"><br>L'équation différentielle est compliquée et fait intervenir le module d'Young et le moment d'inertie: les propriétés physiques d'une règle en plastique sont les suivantes :<br><br>Pour le moment d'Inertie, on modélise la section comme un rectangle :<br>
+•	largeur (sens de lecture) <br>
+•	épaisseur <br>a) Flexion dans le sens de la largeur, la règle est posée debout sur le sol, on la fait plier<br><br>b) Flexion “de tranche”, la règle est couchée sur sa tranche.<br><br>On exerce sur la règle une force verticale . <br>
+<br>A la main, de quel ordre de grandeur est la force que vous pouvez appliquer (en Newton) ? 
+<br>Les rotations aux appuis sont libres : .<br>L'équation différentielle qui gouverne le déplacement est de la forme<br>
+<br>Pour trouver le moment où la règle va casser, on cherche une solution de l'équation en annulant le second membre. Nous nous intéressons donc à l'équation<br>
+En posant , l'équation s'écrit aussi :<br>
+12. A l'aide des conditions aux limites, déterminer l'expression de  et la plus petite force de flambage qui fait casser la règle. <br>Nous allons faire tracer à l'ordinateur la solution de cette équation. On découpe la règle en  segments à l’aide de  points <br>
+<br>Donner la formule du pas spatial  et écrivez en python le tableau sommets qui contient les abscisses des points. 
+<br>À l’aide de la différence centrée d’ordre 2,<br>
+on peut simplifier l'équation différentielle :<br>
+14. Au brouillon, commencez par écrire les expressions obtenues pour  puis généralisez. Écrire les équations pour chacun des noeuds, en remarquant que<br>
+Ecrivez la collection d’équations sous la forme matricielle<br>
+15. Formez en python la matrice  puis utilisez les outils de la première section pour tracer la solution . Vous pourrez augmenter le nombre de segments pour obtenir une solution plus lisse. ]]></description><link>enseignement/4-analyse-numérique/tp-2-analyse-numérique.html</link><guid isPermaLink="false">Enseignement/4 - Analyse Numérique/TP 2 Analyse Numérique.md</guid><pubDate>Fri, 23 May 2025 05:34:55 GMT</pubDate><enclosure url="lib/media/capture-d’écran-2025-02-03-à-14.20.25.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/capture-d’écran-2025-02-03-à-14.20.25.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
